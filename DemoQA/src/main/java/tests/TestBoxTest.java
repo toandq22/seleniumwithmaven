@@ -1,12 +1,10 @@
 package tests;
 
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pages.ElementPage;
 import pages.HomePage;
-import pages.Page;
 import pages.TextboxPage;
 
 public class TestBoxTest extends TestCase {
@@ -14,7 +12,6 @@ public class TestBoxTest extends TestCase {
 		TestBoxTest tc1 = new TestBoxTest();
 		tc1.doTC01();
 	}
-	
 
 	/**
 	 * TextBox-TC01
@@ -22,7 +19,7 @@ public class TestBoxTest extends TestCase {
 	@Test
 	public void doTC01() {
 		// open homepage
-        openWebsite();
+		openWebsite();
 		// click vao phan tu element
 		HomePage homePage = new HomePage(testBasic.driver);
 
