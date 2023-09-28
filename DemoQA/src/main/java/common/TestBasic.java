@@ -11,5 +11,10 @@ public class TestBasic {
 		System.setProperty("webdriver.chrome.driver", localDir + "\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://demoqa.com/");
+		driver.manage().window().maximize();
+
+
+
+
 	}
 }
