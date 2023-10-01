@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class ElementPage extends Page {
 	By menuTextBox = By.xpath("//span[text()='Text Box']");
 	By menuCheckBox = By.xpath("//span[text()='Check Box']");
+	By menuRadioButton = By.xpath("//span[text()='Radio Button']");
 
 	public TextboxPage clickTextBoxmenu() {
 		driver.findElement(menuTextBox).click();
@@ -17,6 +18,11 @@ public class ElementPage extends Page {
 		driver.findElement(menuCheckBox).click();
 		return new CheckBoxPage(driver);
 
+	}
+
+	public RadioButtonPage clickRadioButtonMenu() {
+		driver.findElement(menuRadioButton).click();
+		return new RadioButtonPage(driver);
 	}
 
 	public ElementPage(WebDriver dr) {
