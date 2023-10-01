@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-01T08:33:13 ICT" name="Default suite" finished-at="2023-10-01T08:33:43 ICT" duration-ms="29978">
+  <suite started-at="2023-10-01T18:36:15 ICT" name="Default suite" finished-at="2023-10-01T18:38:51 ICT" duration-ms="156031">
     <groups>
     </groups>
-    <test started-at="2023-10-01T08:33:13 ICT" name="Default test" finished-at="2023-10-01T08:33:43 ICT" duration-ms="29978">
+    <test started-at="2023-10-01T18:36:15 ICT" name="Default test" finished-at="2023-10-01T18:38:51 ICT" duration-ms="156031">
       <class name="tests.RadioButtonTest">
-        <test-method is-config="true" signature="openWebsite()[pri:0, instance:tests.RadioButtonTest@53045c6c]" started-at="2023-10-01T08:33:13 ICT" name="openWebsite" finished-at="2023-10-01T08:33:26 ICT" duration-ms="13524" status="PASS">
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:tests.RadioButtonTest@53045c6c]" started-at="2023-10-01T18:36:15 ICT" name="openWebsite" finished-at="2023-10-01T18:36:27 ICT" duration-ms="11132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openWebsite -->
-        <test-method signature="doTC03()[pri:0, instance:tests.RadioButtonTest@53045c6c]" started-at="2023-10-01T08:33:26 ICT" name="doTC03" finished-at="2023-10-01T08:33:43 ICT" duration-ms="16301" status="PASS">
+        <test-method signature="doTC03()[pri:0, instance:tests.RadioButtonTest@53045c6c]" started-at="2023-10-01T18:36:27 ICT" name="doTC03" finished-at="2023-10-01T18:38:51 ICT" duration-ms="144799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doTC03 -->
