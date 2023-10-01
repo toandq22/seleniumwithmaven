@@ -12,4 +12,12 @@ public class TestBasic {
 		driver = new ChromeDriver();
 		driver.get("https://demoqa.com/");
 	}
+
+	public void closeBrowser() {
+		driver.quit();// colse toan bo cua so( all tab)
+	}
+
+	public void closeCurrentWindows() {
+		driver.close();
+	}
 }
