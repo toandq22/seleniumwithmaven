@@ -8,18 +8,13 @@ import pages.HomePage;
 import pages.TextboxPage;
 
 public class TestBoxTest extends TestCase {
-	public static void main(String[] args) {
-		TestBoxTest tc1 = new TestBoxTest();
-		tc1.doTC01();
-	}
 
 	/**
 	 * TextBox-TC01
 	 */
 	@Test
 	public void doTC01() {
-		// open homepage
-		openWebsite();
+
 		// click vao phan tu element
 		HomePage homePage = new HomePage(testBasic.driver);
 

@@ -5,8 +5,9 @@
     <classes>
       <class name="tests.CheckBoxTest">
         <methods>
+          <include name="closeWindows"/>
+          <include name="doTC02"/>
           <include name="openWebsite"/>
-          <include name="doTC01"/>
         </methods>
       </class> <!-- tests.CheckBoxTest -->
     </classes>

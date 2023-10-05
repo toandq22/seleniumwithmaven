@@ -5,9 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class RadioButtonPage extends Page {
-	By rdYes = By.xpath("//label[normalize-space()='Yes']");
-	By rdImressive = By.xpath("//label[normalize-space()='Impressive']");
-	By rdNo = By.xpath("//label[normalize-space()='No']");
+	public By rdYes = By.xpath("//label[normalize-space()='Yes']");
+	public By rdImressive = By.xpath("//label[normalize-space()='Impressive']");
+	public By rdNo = By.xpath("//label[normalize-space()='No']");
 
 	By strLike = By.xpath("//p[@class='mt-3']");
 
@@ -15,7 +15,7 @@ public class RadioButtonPage extends Page {
 		driver = dr;
 	}
 
-	public boolean isLoadRadio() {
+	public boolean isRadioUnchecked() {
 		if (!driver.findElement(rdYes).isSelected() && !driver.findElement(rdImressive).isSelected()
 				&& driver.findElement(rdNo).isDisplayed()) {
 			return true;
@@ -25,9 +25,10 @@ public class RadioButtonPage extends Page {
 
 	public void clickRadido(By loacator) {
 		driver.findElement(loacator).click();
+
 	}
 
-	public String getResut() {
+	public String getRadioText() {
 		return driver.findElement(strLike).getText();
 	}
 

@@ -10,8 +10,6 @@ import pages.HomePage;
 public class CheckBoxTest extends TestCase {
 	@Test
 	public void doTC02() {
-		System.out.println("doquoctoan");
-		openWebsite();
 
 		// click vao phan tu element
 		HomePage homePage = new HomePage(testBasic.driver);
